@@ -1,0 +1,8 @@
+.login-input {
+    margin: 6px 0px;
+    border-radius: 5px;
+    border: 2px solid var(--light-gray);
+    font-size: 18px;
+    width: 80%;
+    height: 40px;
+}

@@ -1,0 +1,26 @@
+.socials-btn {
+  padding: 0;
+  margin: 25px 8px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid var(--light-gray);
+  background: transparent;
+}
+
+.socials-btn > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-btn img {
+  max-width: 50%;
+  max-height: 50%;
+  width: auto;
+  height: auto;
+}
+
+.socials-btn:hover {
+  background: var(--hover-gradient);
+}

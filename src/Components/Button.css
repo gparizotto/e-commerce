@@ -1,0 +1,23 @@
+.sign-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--white);
+    height: 60px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.sign-btn.in {
+    border: 3px solid var(--white);
+    background: transparent;
+}
+
+.sign-btn.up {
+    border: none;
+    background: var(--main-gradient);
+}
+
+.sign-btn.in:hover, .sign-btn.up:hover {
+    background: var(--hover-gradient);
+}

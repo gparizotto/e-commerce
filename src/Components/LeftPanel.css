@@ -1,0 +1,27 @@
+.left-panel {
+    box-sizing: border-box;
+    height: 100%;
+    max-width: 45%;
+    background: var(--main-gradient);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.left-panel > h1, h3, button {
+    text-align: center;
+    margin: 10px;
+}
+
+.left-panel > h1 {
+    font-weight: 800;
+    color: var(--white);
+    margin: 10px;
+}
+
+.left-panel > h3 {
+    font-weight: 300;
+    color: var(--white);
+}

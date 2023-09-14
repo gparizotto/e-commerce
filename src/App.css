@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-ExtraLight.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/Poppins-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  --white: #fff;
+  --main-gradient: linear-gradient(to right, #662D8C, #ED1E79);
+  --hover-gradient: linear-gradient(to right, #36d1dc, #5b86e5);
+  --light-gray: #a69696;
+  --gray: #757575;
+}
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif, Arial, Helvetica;
+}
+
+button {
+  cursor: pointer;
+}

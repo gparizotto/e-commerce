@@ -1,0 +1,19 @@
+.right-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-panel > h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.right-panel > h3 {
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--gray);
+}
+
